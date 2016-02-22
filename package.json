@@ -1,0 +1,25 @@
+{
+  "title": "Gecko CSS Triggers",
+  "name": "gecko-css-triggers",
+  "version": "0.0.1",
+  "icon": "./data/firefox.png",
+  "icon64": "./data/firefox.png",
+  "description": "An addon that collects css trigger data for csstriggers.com",
+  "main": "index.js",
+  "author": "",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "preferences": [{
+    "description": "URL root to test suites for CSS Triggers",
+    "title": "URL Root",
+    "value": "http://localhost:8888/CSS-Triggers/suite/",
+    "type": "string",
+    "name": "urlRoot"
+  }]
+}
